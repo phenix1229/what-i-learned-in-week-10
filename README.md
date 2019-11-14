@@ -41,3 +41,10 @@ You can also create grid areas.
   "footer footer footer";
 }
 ```
+*Exercises:*
+
+https://github.com/phenix1229/japanese-grid-solution
+
+https://github.com/phenix1229/japanese-grid-big
+
+https://github.com/phenix1229/holy-grid-template-areas
