@@ -41,6 +41,11 @@ You can also create grid areas.
   "footer footer footer";
 }
 ```
+
+### auto-fit
+
+`grid-template-columns: repeat(auto-fit, minMax(160px, 300px));`
+
 *Exercises:*
 
 https://github.com/phenix1229/japanese-grid-solution
@@ -48,3 +53,37 @@ https://github.com/phenix1229/japanese-grid-solution
 https://github.com/phenix1229/japanese-grid-big
 
 https://github.com/phenix1229/holy-grid-template-areas
+
+---
+
+## Object basics
+
+An object is similar to an array, but is not ordered. It is made of pairs of keys and values.
+
+*Example:*
+```
+const colin = {
+  firstName : 'colin',
+  lastName : 'jaffe',
+  height : 62,
+  age : 39
+}
+```
+
+2 ways to retrieve data:
+  1. console.log(colin['firstName'])
+  2. console.log(colin.firstName) - preferred method
+
+2 ways to add keys to an object:
+  1. colin['maritalStatus'] = 'married'
+  2. colin.maritalStatus = 'married'
+
+You can assign variables based on keys
+
+```
+const valueWanted = 'firstName';
+
+console.log(colin[valueWanted])
+```
+
+---
